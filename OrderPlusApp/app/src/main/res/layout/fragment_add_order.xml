@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_below="@id/toolbar"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="55dp"
+    android:padding="20dp"
+    tools:context=".ui.AddOrdersFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:text="Добавление заказа"
+            android:textColor="@color/md_blue_50"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/from_ord"
+        android:inputType="text"
+        app:met_floatingLabel="normal"
+        android:hint=" Введите пункт отправления"
+        app:met_textColorHint="#DADADA"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/upto_ord"
+        android:inputType="text"
+        app:met_floatingLabel="normal"
+        android:hint=" Введите пункт прибытия"
+        app:met_textColorHint="#DADADA"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/prod_ord"
+        android:inputType="text"
+        app:met_floatingLabel="normal"
+        android:hint=" Введите название товара"
+        app:met_textColorHint="#DADADA"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/number_ord"
+        android:inputType="number"
+        app:met_floatingLabel="normal"
+        android:hint=" Введите номер заказа"
+        app:met_textColorHint="#DADADA"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/limit_ord"
+        android:inputType="date"
+        app:met_floatingLabel="normal"
+        android:hint=" Введите срок доставки"
+        app:met_textColorHint="#DADADA"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/name_order_ord"
+        android:inputType="textPersonName"
+        app:met_floatingLabel="normal"
+        android:hint=" Введите ФИО заказчика"
+        app:met_textColorHint="#DADADA"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/distance_ord"
+        android:inputType="number"
+        app:met_floatingLabel="normal"
+        android:hint=" Введите расстояние"
+        app:met_textColorHint="#DADADA"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/price_ord"
+        android:inputType="number"
+        app:met_floatingLabel="normal"
+        android:hint=" Введите цену товара"
+        app:met_textColorHint="#DADADA"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#29E330"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="90dp"
+        app:cardCornerRadius="60dp">
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="ДОБАВИТЬ В БАЗУ"
+            android:background="#25DF2D"
+            android:outlineSpotShadowColor="#434343"
+            android:textSize="13sp"
+            android:textColor="#FFFFFF"/>
+
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

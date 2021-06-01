@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="15dp"
+        app:cardBackgroundColor="@color/md_blue_50"
+        android:outlineSpotShadowColor="@color/cardview_dark_background"
+        android:outlineAmbientShadowColor="#000000"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/spFilter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spFilter">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="305dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginBottom="10dp"
+            android:src="@android:drawable/ic_menu_mylocation"
+            app:backgroundTint="@color/colorAccent"
+            app:fabSize="normal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:rippleColor="@android:color/white"
+            app:tint="@color/md_blue_A700" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:id="@+id/tv_from_ord"
+            android:textColor="@color/md_blue_A700"
+            android:shadowColor="@color/browser_actions_bg_grey"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Ивано-Франковск"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="185dp"
+            android:layout_marginEnd="50dp"
+            android:id="@+id/tv_sign"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="➱"/>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginEnd="50dp"
+            android:id="@+id/tv_upto_ord"
+            android:textColor="@color/md_blue_A700"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Днепропетровск"/>
+
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/tv_prod_ord"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="16sp"
+            android:text="Ремень ГРМ"/>
+
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="73dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/tv_num"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="№"/>
+
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="73dp"
+            android:layout_marginStart="40dp"
+            android:id="@+id/tv_number_ord"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="1245"/>
+
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/tv_lim"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="16sp"
+            android:text="Срок до:"/>
+
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            android:layout_marginStart="88dp"
+            android:id="@+id/tv_limit_ord"
+            android:textColor="@color/errorColor"
+            android:textSize="16sp"
+            android:text="18.05.2021"/>
+
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="119dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/tv_name_order_ord"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="16sp"
+            android:text="Густинский Виталий Петрович"/>
+
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="142dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/tv_distance_ord"
+            android:textColor="@color/md_blue_700"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="1200"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="142dp"
+            android:layout_marginStart="62dp"
+            android:id="@+id/tv_dist"
+            android:textColor="@color/md_blue_700"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="км"/>
+
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="166dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/tv_price_ord"
+            android:textColor="#4CAF50"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="2350"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="166dp"
+            android:layout_marginStart="62dp"
+            android:id="@+id/tv_price"
+            android:textColor="#4CAF50"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="грн."/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

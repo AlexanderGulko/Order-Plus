@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" />
+    <string-array name="filter_options">
+        <item>Дате</item>
+        <item>Расстоянию</item>
+        <item>Цене</item>
+    </string-array>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDlzmQ6sautWaVxeHTlH4AsElCl1J43Ppo</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_add_order">AddOrderActivity</string>
+    <string name="search">Search...</string>
+</resources>

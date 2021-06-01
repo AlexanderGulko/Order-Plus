@@ -1,0 +1,7 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 106 ciObject found
+ciMethod org/jetbrains/kotlin/codegen/ExpressionCodegen getState ()Lorg/jetbrains/kotlin/codegen/state/GenerationState; 2049 1 256 0 -1
+ciMethod org/jetbrains/kotlin/codegen/ExpressionCodegen $$$reportNull$$$0 (I)V 0 0 1 0 -1
+ciMethodData org/jetbrains/kotlin/codegen/ExpressionCodegen $$$reportNull$$$0 (I)V 0 0 orig 264 88 29 214 89 0 0 0 0 128 230 144 37 0 0 0 0 240 220 0 0 248 195 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 40 218 0 0 255 255 255 255 8 0 1 0 0 0 0 0 data 6981
